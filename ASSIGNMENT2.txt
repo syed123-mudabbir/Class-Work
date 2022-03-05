@@ -1,0 +1,19 @@
+void main() {
+  int math = 72;
+  int physics = 62;
+  int chemistry = 59;
+  int english = 52;
+  int urdu = 53;
+  
+  var obtain_marks = math + physics + chemistry + english + urdu;
+  var total_marks = 450;
+  num per = (obtain_marks * 100 / total_marks);
+  
+  if 
+    (per >= 90 ) {print ("Grade A+");}
+    else if (per >= 70) {print ("Grade A");}
+     else if (per >= 60) {print ("Grade B");}
+  else if (per >= 40) {print ("Grade C");}
+  
+  else print ( "Fail");
+}
